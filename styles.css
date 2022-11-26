@@ -16,7 +16,7 @@
 
 button {
     
-    background-color: black;
+    background-color: transparent;
     color: white;
     padding: 2rem;
     display: flex;
@@ -26,4 +26,10 @@ button {
     border-radius: 100px;
     width: 80%
    
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
 }
