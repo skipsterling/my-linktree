@@ -14,20 +14,49 @@
     height: 800px;
 }
 
-button {
+.b1 {
     
     background-color: transparent;
     color: white;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-content: space-around;
     font-size: 2rem;
     border-radius: 100px;
-    width: 80%
-   
+    width: 80%;
+    font-family: billabong;
+    font-size: 4rem;
 }
 
+.b2 {
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    font-size: 2rem;
+    border-radius: 100px;
+    width: 80%;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4rem;
+}
+
+.b3 {
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    font-size: 2rem;
+    border-radius: 100px;
+    width: 80%;
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
 .b1:hover {
     color: white;
         background-image: linear-gradient(to right, #bc2a8d , #fccc63);
